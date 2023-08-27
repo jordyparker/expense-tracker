@@ -19,7 +19,28 @@ class AppTheme {
         backgroundColor: Colors.transparent,
       ),
       drawerTheme: DrawerThemeData(backgroundColor: colors.background),
-      cardColor: colors.background,
+      cardColor: Colors.white,
+      bottomNavigationBarTheme: BottomNavigationBarThemeData(
+        backgroundColor: Colors.white,
+        showSelectedLabels: true,
+        showUnselectedLabels: true,
+        unselectedLabelStyle: TextStyle(
+          color: colors.secondary,
+          fontSize: 12
+        ),
+        selectedLabelStyle: TextStyle(
+          color: colors.primary,
+          fontSize: 12
+        ),
+        selectedIconTheme: IconThemeData(
+          color: colors.primary,
+          size: 26
+        ),
+        unselectedIconTheme: IconThemeData(
+          color: colors.secondary,
+          size: 24
+        )
+      ),
       bottomSheetTheme: BottomSheetThemeData(backgroundColor: colors.background),
       dialogTheme: DialogTheme(backgroundColor: colors.background),
       primaryColor: colors.primary,

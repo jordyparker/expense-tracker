@@ -13,13 +13,13 @@ class AppColors {
   final Color onError;
 
   AppColors.light()
-      : background = const Color(0xFFFFFFFF),
+      : background = const Color(0xFFF1F5F9),
         onBackground = const Color(0xFF000000),
         surface = const Color(0xFFFBFAF5),
         onSurface = const Color(0xFF000000),
         secondary = const Color(0xFFC4C4C4),
         onSecondary = const Color(0xFF000000),
-        primary = Colors.blue,
+        primary = const Color(0xFF0EA5E9),
         onPrimary = const Color(0xFFFBFAF5),
         error = const Color(0xFFFF1744),
         onError = const Color(0xFFFBFAF5);
@@ -31,7 +31,7 @@ class AppColors {
         onSurface = const Color(0xFFFBFAF5),
         secondary = const Color(0xFFC4C4C4),
         onSecondary = const Color(0xFF000000),
-        primary = Colors.blueAccent,
+        primary = const Color(0xFF0EA5E9),
         onPrimary = const Color(0xFFFBFAF5),
         error = const Color(0xFFD50000),
         onError = const Color(0xFFFBFAF5);
